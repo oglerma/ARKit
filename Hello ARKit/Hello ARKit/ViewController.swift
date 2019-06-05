@@ -13,6 +13,10 @@ import ARKit
 class ViewController: UIViewController, ARSCNViewDelegate {
 
     @IBOutlet var sceneView: ARSCNView!
+    @IBOutlet weak var statusLabel: UILabel!
+    @IBOutlet weak var startButton: UIButton!
+    @IBAction func startButtonPressed(_ sender: Any) {
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -29,6 +33,8 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         
         // Set the scene to the view
         sceneView.scene = scene
+        
+        statusLabel.text = "Greetings! :]"
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -72,5 +78,9 @@ class ViewController: UIViewController, ARSCNViewDelegate {
     func sessionInterruptionEnded(_ session: ARSession) {
         // Reset tracking and/or remove existing anchors if consistent tracking is required
         
+    }
+    
+    override var prefersStatusBarHidden: Bool {
+        return true
     }
 }
