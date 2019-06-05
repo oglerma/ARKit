@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E95002EB22A7505C0072600D /* PokerDice.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = E95002EA22A7505C0072600D /* PokerDice.scnassets */; };
 		E9973EDD229CE0600078E27B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9973EDC229CE0600078E27B /* AppDelegate.swift */; };
-		E9973EDF229CE0600078E27B /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = E9973EDE229CE0600078E27B /* art.scnassets */; };
 		E9973EE1229CE0600078E27B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9973EE0229CE0600078E27B /* ViewController.swift */; };
 		E9973EE4229CE0600078E27B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9973EE2229CE0600078E27B /* Main.storyboard */; };
 		E9973EE6229CE0620078E27B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9973EE5229CE0620078E27B /* Assets.xcassets */; };
@@ -16,9 +16,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E95002EA22A7505C0072600D /* PokerDice.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = PokerDice.scnassets; sourceTree = "<group>"; };
 		E9973ED9229CE0600078E27B /* Hello ARKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hello ARKit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9973EDC229CE0600078E27B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E9973EDE229CE0600078E27B /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
 		E9973EE0229CE0600078E27B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E9973EE3229CE0600078E27B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E9973EE5229CE0620078E27B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -56,8 +56,8 @@
 		E9973EDB229CE0600078E27B /* Hello ARKit */ = {
 			isa = PBXGroup;
 			children = (
+				E95002EA22A7505C0072600D /* PokerDice.scnassets */,
 				E9973EDC229CE0600078E27B /* AppDelegate.swift */,
-				E9973EDE229CE0600078E27B /* art.scnassets */,
 				E9973EE0229CE0600078E27B /* ViewController.swift */,
 				E9973EE2229CE0600078E27B /* Main.storyboard */,
 				E9973EE5229CE0620078E27B /* Assets.xcassets */,
@@ -125,7 +125,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E9973EDF229CE0600078E27B /* art.scnassets in Resources */,
+				E95002EB22A7505C0072600D /* PokerDice.scnassets in Resources */,
 				E9973EE9229CE0620078E27B /* LaunchScreen.storyboard in Resources */,
 				E9973EE6229CE0620078E27B /* Assets.xcassets in Resources */,
 				E9973EE4229CE0600078E27B /* Main.storyboard in Resources */,
