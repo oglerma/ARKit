@@ -14,7 +14,17 @@ class ViewController: UIViewController, ARSCNViewDelegate {
 
     @IBOutlet var sceneView: ARSCNView!
     @IBOutlet weak var statusLabel: UILabel!
+    @IBOutlet weak var styleButton: UIButton!
+    @IBOutlet weak var resetButton: UIButton!
     @IBOutlet weak var startButton: UIButton!
+    
+    @IBAction func styleButtonPressed(_ sender: Any) {
+    }
+    
+    @IBAction func resetButtonPressed(_ sender: Any) {
+    }
+    
+
     @IBAction func startButtonPressed(_ sender: Any) {
     }
     
@@ -25,7 +35,7 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         sceneView.delegate = self
         
         // Show statistics such as fps and timing information
-        sceneView.showsStatistics = true
+        sceneView.showsStatistics = false
         
         // Create a new scene
 //        let scene = SCNScene(named: "art.scnassets/ship.scn")!
